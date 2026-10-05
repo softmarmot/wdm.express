@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import AppFooter from './components/AppFooter.vue'
 </script>
 
 <template>
@@ -16,6 +17,8 @@ import HelloWorld from './components/HelloWorld.vue'
   </header>
 
   <RouterView />
+
+  <AppFooter />
 </template>
 
 <style scoped>
