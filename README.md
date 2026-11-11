@@ -1,47 +1,19 @@
-# WDM EXPRESS LLC
+# WDM Express website
 
-WDM EXPRESS LLC transportation company.
+Static website for WDM EXPRESS LLC, served at https://wdm.express/ by GitHub Pages. Plain HTML, CSS and JavaScript, no build step.
 
-## Tech Stack
+- `index.html`, `style.css`, `app.js`: home page
+- `privacy-policy.html` (`/privacy-policy`) and `ccpa.html` (`/ccpa`): legal pages
+- `assets/`: images, video, favicon and self-hosted fonts
 
-### Programming Languages
+## Deploy
 
-| HTML                                                                           | CSS                                                                         | JS + TS                                                                                                                                                          |
-|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [![HTML](/src/assets/images/readme/html.png)](https://www.w3schools.com/html/) | [![CSS](/src/assets/images/readme/css.png)](https://www.w3schools.com/css/) | [![JS](/src/assets/images/readme/js.png)](https://www.w3schools.com/js/)[![JS](/src/assets/images/readme/typescript.png)](https://www.w3schools.com/typescript/) |
+Every push to `main` publishes the repository as is through `.github/workflows/main.yml`.
 
-### Frameworks
+## Forms
 
-| VueJS                                                          | Tailwind                                                                  |
-|----------------------------------------------------------------|---------------------------------------------------------------------------|
-| [![JS](/src/assets/images/readme/vue.png)](https://vuejs.org/) | [![JS](/src/assets/images/readme/tailwind.png)](https://tailwindcss.com/) |
+Both forms (shipping request and driver application) are delivered to dispatch@wdm.express by Web3Forms. The access key is `accessKey` at the top of `app.js`; it is public by design.
 
-### Building Tool
+## Rollback
 
-| Vite                                                             |
-|------------------------------------------------------------------|
-| [![JS](/src/assets/images/readme/vite.png)](https://vitejs.dev/) |
-
-### Deployment
-
-| CI/CD - GitHub Actions                                                                         | Host - GitHup Pages                                                          |
-|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| [![GitHub](/src/assets/images/readme/github-actions.png)](https://github.com/features/actions) | [![GitHub](/src/assets/images/readme/github.png)](https://pages.github.com/) |
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+The previous Vue 3 + Vite site is tagged `v1-vue`.
