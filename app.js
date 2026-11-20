@@ -6,7 +6,7 @@
    Until a key is set, both forms still work: the visitor gets
    buttons to send the request by text message or to call.
    ============================================================ */
-const WDM_FORMS={accessKey:'213d0944-dcad-43cb-bf95-3811f7d496a8',phone:'+12167048163',smsPhone:'+14407091601',phoneLabel:'+1 (216) 704-8163',email:'dispatch@wdm.express'};
+const WDM_FORMS={accessKey:'213d0944-dcad-43cb-bf95-3811f7d496a8',phone:'+14407091601',smsPhone:'+14407091601',phoneLabel:'+1 (440) 709-1601',email:'dispatch@wdm.express'};
 
 function initWdm(root){
 const $=selector=>root.querySelector(selector),$$=selector=>Array.from(root.querySelectorAll(selector));
